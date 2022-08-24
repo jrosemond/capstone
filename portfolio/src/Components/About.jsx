@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default function About() {
   return (
     <div>
-        <h1>About Me</h1>
+        <h1 class="aboutTitle">About Me</h1>
         <Navbar/>
       
 <div

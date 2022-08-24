@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 function Contact() {
     return (
         <div>
-            <h1 class="mb-3">Contact Me</h1>
+            <h1 class=" contacttitle mb-3">Contact Me</h1>
             <Navbar />
             <hr/>
             <div class="container">
