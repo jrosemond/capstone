@@ -1,0 +1,32 @@
+.contactTitle{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+      color: navy;
+  }
+  .contactTitle:hover {
+    text-shadow: 1px 1px 2px orangered;
+    cursor: pointer;
+  
+  }
+
+.contactPage {
+    background-color: rgb(241, 241, 241);
+}
+
+.container {
+    height: 400px;
+    margin-top: 75px;
+    border: 3px thin black;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 2px 2px;
+}
+
+.form-control{
+    width: 200px;
+}
+
+.my-form {
+        padding-left: 60px;
+    
+      
+}

@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  bottom: 0;
+}
+.projectsPage{
+    background-color:rgb(241, 241, 241);
+   
+  }
+  .projectsTitle{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 80px;
+    color:navy;
+  }
+  .projectsTitle:hover {
+    text-shadow: 1px 1px 2px orangered;
+    cursor: pointer;
+  
+  }
+
+
+  .card {
+    box-shadow: 2px 2px 2px 2px black;
+    width: 400px;
+  }
+  

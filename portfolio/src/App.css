@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-
+*{
+  margin: 0;
+  bottom: 0;
+}
 .App {
   text-align: center;
 }
@@ -12,12 +15,15 @@
   color: black;
 
 }
-.navbar:hover{
- font-weight:bold;
+
+.navbar:hover {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
 
-.home{
- 
+.home {
+
 }
 
 .homepage {
@@ -31,12 +37,13 @@
   font-size: 85px;
   padding-left: 25px;
   margin-left: 20%;
+  color: navy;
 }
 
 .hometitle:hover {
-  text-shadow:  1px 1px 2px red;
+  text-shadow: 1px 1px 2px red;
   cursor: pointer;
-  
+
 }
 
 .homeimage {
@@ -44,23 +51,21 @@
   height: 200px;
 }
 
-.container {
-  margin-top: 75px;
-  border: 3px thin black;
-  box-shadow:2px 2px 2px 2px black;
+
+.contacttitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
 }
 
-.contacttitle{
-  font-family: 'Abril Fatface', cursive;
-  font-size:80px;
+
+.title {
+  text-decoration: none;
 }
 
-.aboutTitle{
-  font-family: 'Abril Fatface', cursive;
-  font-size:80px;
+
+a:hover {
+  text-decoration: none;
+  color: #464343 !important;
+
 }
 
-.projectsTitle{
-  font-family: 'Abril Fatface', cursive;
-  font-size:80px;
-}
