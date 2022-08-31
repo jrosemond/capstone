@@ -14,10 +14,10 @@
 }
 
 .container {
-    height: 400px;
+    height: 475px;
     margin-top: 75px;
     border: 3px thin black;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px navy;
     border-radius: 2px 2px;
 }
 

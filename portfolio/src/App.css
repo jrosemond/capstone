@@ -9,9 +9,12 @@
 .App {
   text-align: center;
 }
-
+.buttonStyle{
+  text-decoration: none;
+}
 .navbar {
   font-family: 'Italiana', serif;
+  font-weight: bold;
   color: black;
 
 }

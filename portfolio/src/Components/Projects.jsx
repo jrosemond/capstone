@@ -14,8 +14,11 @@ export default function Projects() {
     return (
         <div class="projectsPage">
             <h3 className="projectsTitle" style={myStyle}>Projects</h3>
-            <Navbar />
             <hr />
+            <Navbar />
+            <div>
+                
+            </div>
             <div class="projectList d-flex justify-content-around flex-wrap mt-4 " >
                 <div class="card">
                     <div class="card-body">

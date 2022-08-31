@@ -26,27 +26,29 @@ export default function About() {
   return (
     <div class="aboutPage">
       <h1 class="aboutTitle" style={myStyle}>About Me</h1>
-      <Navbar />
       <hr />
+      <Navbar />
       <div class="bioTitle d-flex justify-content-center py-5">
       </div>
-      <div class="bio d-flex justify-content-around rounded-lg">
-        <img src="./jahni.JPG"
+      <div class="bio d-flex justify-content-around ml-4">
+        <img class="autoBioPic rounded-full" src="./jahni.JPG"
           width="450px"
           height="600px"
         />
-        <p>Raised in Greenville, SC later attending Johnson C. Smith University. I love to travel and cook those are some of the few ways I express myself outside of Tech. As you take a deeper dive into my portfolio you will come to understand exactly "Who Jahni Is"</p>
+        <p class="autoBio mx-12 mt-12">Raised in Greenville, SC later attending Johnson C. Smith University. I love to travel and cook those are some of the few ways I express myself outside of Tech. As you take a deeper dive into my portfolio you will come to understand exactly "Who Jahni Is"</p>
       </div>
       <button type="submit"></button>
       <button></button>
 
 
 
-     
 
 
 
-<h2 class="testimonalsTitle pt-60">Testimonals</h2>
+      <div class="borederTest">
+
+        <h2 class="testimonalsTitle pt-60">Testimonals</h2>
+      </div>
 
       <div class="mentor mt-40">
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">

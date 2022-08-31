@@ -38,49 +38,49 @@ function Contact() {
     return (
         <div className="contactPage">
             <h1 class=" contactTitle mb-3" style={myStyle}>Contact Me</h1>
-            <Navbar />
             <hr />
+            <Navbar />
             {/* justify-content-between */}
             <div class="container">
-                <div class="row d-flex justify-content-around">
+                <div class="d-flex justify-content-around">
                     <div class="col-md-7">
                         <div class="form d-flex">
                             <div class="image">
                                 <img src="./caliview.jpg"
-                                    height="100px"
-                                    width="300px" />
+                                    height="300px"
+                                    width="600px" class="contactImage pt-6"/>
                             </div>
-                            <form onSubmit={sendEmail} class="my-form pt-4">
-                                <div class="md-form md-outline mb-2 ">
+                            <form onSubmit={sendEmail} class="my-form pt-24 flex flex-wrap">
+                                <div class="md-form md-outline mb-2 pr-3 ">
                                     <i class="fas fa-envelope prefix"></i>
-                                    <input type="text" id="emailExample" class="form-control" />
-                                    <label for="emailExample">First Name</label>
+                                    <input type="text" id="firstNameExample" class="form-control" placeholder="First Name" required />
                                 </div>
-                                <div class="md-form md-outline mb-2">
+                                <div class="md-form md-outline mb-2 pr-3 ">
                                     <i class="fas fa-envelope prefix"></i>
-                                    <input type="text" id="emailExample" class="form-control" />
-                                    <label for="emailExample">Last Name</label>
+                         
+                                    <input type="text" id="lastNameExample" class="form-control" placeholder="Last Namme" required/>
+                                    
                                 </div>
-                                <div class="md-form md-outline mb-2">
+                                <div class="md-form md-outline mb-2 pr-3 ">
                                     <i class="fas fa-envelope prefix"></i>
-                                    <input type="email" id="emailExample" class="form-control" />
-                                    <label for="emailExample">E-mail address</label>
+                                    <input type="email" id="emailExample" class="form-control" placeholder="Email Address" required/>
+                                 
                                 </div>
 
-                                <div class="md-form md-outline mb-2">
+                                <div class="md-form md-outline mb-2 pr-3 ">
                                     <i class="fas fa-lock prefix"></i>
-                                    <input type="phonenumber" id="passwordExample" class="form-control" />
-                                    <label for="passwordExample">Phone Number</label>
+                                    <input type="phonenumber" id="phoneExample" class="form-control" placeholder="Phone Number" required/>
+                                    
                                 </div>
-                                <div class="md-form md-outline mb-2">
+                                <div class="md-form md-outline mb-4 ">
                                     <i class="fas fa-envelope prefix"></i>
-                                    <input type="text" id="emailExample" class="form-control" />
-                                    <label for="emailExample">Message</label>
+                                    <input type="text" id="emailExample" class="form-control" placeholder="Message"  required/>
+                                
                                 </div>
 
                                 <div class="space">
-                                    <div class="float-right">
-                                        <button class="btn btn-rounded" type="submit">Submit</button>
+                                    <div class="pl-4">
+                                        <button class="btn btn-rounded" type="submit">Contact Me</button>
                                     </div>
                                 </div>
                             </form>
