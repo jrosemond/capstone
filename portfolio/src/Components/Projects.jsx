@@ -17,7 +17,7 @@ export default function Projects() {
             <hr />
             <Navbar />
             <div>
-                
+
             </div>
             <div class="projectList d-flex justify-content-around flex-wrap mt-4 " >
                 <div class="card">
@@ -31,7 +31,7 @@ export default function Projects() {
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <img src="./jahni.JPG" alt="" width="150px"></img>
+                        <img src="" alt="" width="150px"></img>
                         <p class="card-text">Social Oppression project built using HTML & JavaScript.</p>
                         <h5 class="card-title">Code For Justice</h5>
                     </div>
